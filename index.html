@@ -43,8 +43,9 @@ body {
 
 /* The expanding image container */
 .container {
-    position: middle;
+    position: relative;
     display: none;
+    align-items: center;
 }
 
 /* Expanding image text */
@@ -171,10 +172,10 @@ body {font-family: Verdana, sans-serif;}
     <!--<img src="/images/shanmuga.nuthalapati.jpg" alt="Nature" style="width:20%" onclick="myFunction(this);">-->
   </div>
   <div class="column">
-    <img src="/images/SrinuAnu-Best.jpg" alt="Snow" style="width:50%" onclick="myFunction(this);">
+    <img src="/images/SrinuAnu-Best.jpg" alt=" " style="width:50%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="/images/SrinuAnu-Best-1.jpg" alt="Mountains" style="width:50%" onclick="myFunction(this);">
+    <img src="/images/SrinuAnu-Best-1.jpg" alt=" " style="width:50%" onclick="myFunction(this);">
   </div>
   <div class="column">
     <p>.</p>
@@ -184,7 +185,7 @@ body {font-family: Verdana, sans-serif;}
     
 <div class="container">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:50%" align="middle">
+  <img id="expandedImg" style="width:50%">
   <div id="imgtext"></div>
 </div>
     
