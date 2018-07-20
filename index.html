@@ -3,10 +3,16 @@
 <body onload="myFunction()">
 
 <h1>Hello World!</h1>
-
+<video id="target_video" width="420">
+  <source src="https://drive.google.com/drive/u/0/folders/1urptSJ3de__L5D_b_u4hUtTyDNfgHd0x" type="video/mp4">
+  <p>Your browser does not support HTML5 video.</p>
+</video>
 <script>
 function myFunction() {
     alert("Surveyjana Sukinobhavanthu");
+    var video = document.getElementById("target_video");
+    video.autoplay = true;
+    video.load(); 
 }
 </script>
 </body>
