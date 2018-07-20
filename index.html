@@ -43,9 +43,10 @@ body {
 
 /* The expanding image container */
 .container {
-    position: relative;
-    display: flex;
-    justify-content: center;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
 }
 
 /* Expanding image text */
@@ -185,7 +186,7 @@ body {font-family: Verdana, sans-serif;}
     
 <div class="container">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:50%">
+  <img id="expandedImg" width="100px">
   <div id="imgtext"></div>
 </div>
     
