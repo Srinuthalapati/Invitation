@@ -1,23 +1,9 @@
 <!DOCTYPE html>
 <html>
 <body onload="myFunction()">
-
-<video controls="controls" autoplay="autoplay" loop="loop"
-width="233" height="147" poster="//www.cdn.com//video.png"
-preload="auto" title="Video">
-    <source src="https://drive.google.com/file/d/16ZW-gSOJi6hIqMBjaFm6bwww393M7a-R/view?usp=sharing" type="video/mp4"/>
-    <source src="https://drive.google.com/file/d/16ZW-gSOJi6hIqMBjaFm6bwww393M7a-R/view?usp=sharing" type="video/ogv"/>
-    <source src="https://drive.google.com/file/d/16ZW-gSOJi6hIqMBjaFm6bwww393M7a-R/view?usp=sharing" type="video/webm"/>
-</video>
-
-<script>
-var vid = document.getElementById("myVideo");
-vid.autoplay = true;
-vid.load(); 
-</script> 
-
-<p>Video courtesy of <a href="https://drive.google.com/file/d/16ZW-gSOJi6hIqMBjaFm6bwww393M7a-R/view?usp=sharing" target="_blank">Big Buck Bunny</a>.</p>
-  
+     var helloMessage = document.createElement("p");  
+     helloMessage.textContent = "Hello " + user.profile.name;  
+     message.appendChild(helloMessage)  
 <script>
 function myFunction() {
     alert("Surveyjana Sukinobhavanthu");
